@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #importing our image
-image = 'coins_1.jpg'
+image = 'Circle_Detection/coins_1.jpg'
 img = cv2.imread(image, 1)
 #making a copy of the image.
 img_orig = img.copy()
